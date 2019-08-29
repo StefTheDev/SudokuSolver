@@ -15,7 +15,7 @@ func readLines(_ board: Board) -> [String] {
     
     var iteration = board.getSize()
     
-    while let thing = readLine() {
+    while let thing = readLine(strippingNewline: true) {
         if (iteration <= 0) {
             break
         } else if(thing.count == 9) {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E1E9A2523173DCC00B719BB /* integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E9A2423173DCC00B719BB /* integer.swift */; };
+		8E1E9A272317424A00B719BB /* solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E9A262317424A00B719BB /* solver.swift */; };
 		8E89B94D230DF9230078C031 /* matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89B94C230DF9230078C031 /* matrix.swift */; };
 		8EB4E0472304C9AB0013D7B1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4E0462304C9AB0013D7B1 /* main.swift */; };
 		8EB4E04E2304C9D20013D7B1 /* board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4E04D2304C9D20013D7B1 /* board.swift */; };
@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8E1E9A2423173DCC00B719BB /* integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = integer.swift; sourceTree = "<group>"; };
+		8E1E9A262317424A00B719BB /* solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solver.swift; sourceTree = "<group>"; };
 		8E89B94C230DF9230078C031 /* matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matrix.swift; sourceTree = "<group>"; };
 		8EB4E0432304C9AB0013D7B1 /* SudokuSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SudokuSolver; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB4E0462304C9AB0013D7B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 				8EB4E0462304C9AB0013D7B1 /* main.swift */,
 				8EB4E04D2304C9D20013D7B1 /* board.swift */,
 				8E89B94C230DF9230078C031 /* matrix.swift */,
-				8E1E9A2423173DCC00B719BB /* integer.swift */,
+				8E1E9A262317424A00B719BB /* solver.swift */,
 			);
 			path = SudokuSolver;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			files = (
 				8E89B94D230DF9230078C031 /* matrix.swift in Sources */,
 				8EB4E04E2304C9D20013D7B1 /* board.swift in Sources */,
-				8E1E9A2523173DCC00B719BB /* integer.swift in Sources */,
+				8E1E9A272317424A00B719BB /* solver.swift in Sources */,
 				8EB4E0472304C9AB0013D7B1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
